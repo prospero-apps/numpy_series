@@ -47,25 +47,55 @@ If we want to create an array with incremental or decremental values, we can use
 
 ![image](https://github.com/user-attachments/assets/0816044e-b11f-475a-a2d6-bdb3eb266497)
 
-## 
+## 11 - Introduction to numpy - Creating numpy Arrays with Set Diagonals
+In the previous lecture we learned to create numpy arrays filled with constant values, incrementing or decrementing values, as well as uniformly or logarithmically spaced values. But there are even more ways of creating arrays. Let's have a look at some of them.
 
-## 
+![image](https://github.com/user-attachments/assets/87d4d624-52e7-4fec-980c-ee345bdbf006)
 
-## 
+## 12 - Introduction to numpy - Creating numpy Arrays from Functions
+There is another useful way of creating numpy arrays. We can create arrays from functions. To this end we use the np.fromfunction function.
 
-## 
+![image](https://github.com/user-attachments/assets/dc7ea0b9-439c-451b-a403-9252c55f11c8)
 
-## 
+## 13 - Introduction to numpy - Indexing and Slicing numpy Arrays - the Basics
+Indexing and slicing 1-dimensional arrays is pretty straightforward. It works just like with Python lists.
 
-## 
+![image](https://github.com/user-attachments/assets/6d59ea87-22ea-4afb-a9ab-0f481239b0ce)
 
-## 
+## 14 - Introduction to numpy - Views and Copies
+When slicing numpy arrays we create views on the original arrays. So, we are working on the same original data, which means that if we change some data in a view, it will also be changed in the original array.
 
-## 
+![image](https://github.com/user-attachments/assets/a5450d6a-d5a7-4bc1-8805-6bbd84c8415e)
 
-## 
+## 15 - Introduction to numpy - Fancy Indexing
+Numpy arrays may be indexed by other numpy arrays or Python lists. We call this fancy indexing. The sequence that is passed as an index in square brackets contains the indices which should be selected.
 
-## 
+![image](https://github.com/user-attachments/assets/9045a5e9-b3ec-47d8-8e3f-352c7f140eca)
+
+## 16 - Introduction to numpy - Boolean Indexing
+numpy arrays may be indexed with boolean expression. All elements are selected for which the value of the boolean expression evaluates to True.
+
+![image](https://github.com/user-attachments/assets/e3af10b4-a08b-4597-a666-b8d22ba90d78)
+
+## 17 - Introduction to numpy - Reshaping numpy Arrays
+Sometimes you may want to reshape or resize your array, like for example make a matrix array out of several vectors or the other way around, turn a vector to a matrix. numpy offers quite a bunch of functions that will let you do just that. 
+
+![image](https://github.com/user-attachments/assets/c2426f1f-61c1-4897-88f0-475d18a1c442)
+
+## 18 - Introduction to numpy - Merging numpy Arrays
+Sometimes you may want to merge arrays into bigger arrays, like for example merge a couple of vectors into a matrix. To this end we can use the np.vstack and np.hstack functions, which stack the arrays vertically and horizontally respectively.
+
+![image](https://github.com/user-attachments/assets/ecd7ee48-aaba-4d1a-a021-72b0f709ff2f)
+
+## 19 - Introduction to numpy - Arithmetic Operations
+You can perform all the basic arithmetic operations on numpy arrays. The operations are performed elementwise, so it is important that the arrays have the same sizes and shapes. If they don't, it's still sometimes possible, but this will be discussed in the next lecture. Now let's concentrate on equal-sized arrays.
+
+![image](https://github.com/user-attachments/assets/030ac81e-5d40-4c33-90f4-36334d1d1604)
+
+## 20 - Introduction to numpy - Broadcasting
+Binary operations like addition, subtraction, multiplication and so on between two arrays are only possible if the arrays can be broadcasted into the same size and shape.
+
+![image](https://github.com/user-attachments/assets/d2abbeb1-e3c7-4b8e-8b79-8680c265d2e4)
 
 ## 
 
