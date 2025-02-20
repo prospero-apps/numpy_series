@@ -97,23 +97,50 @@ Binary operations like addition, subtraction, multiplication and so on between t
 
 ![image](https://github.com/user-attachments/assets/d2abbeb1-e3c7-4b8e-8b79-8680c265d2e4)
 
-## 
+## 21 - Introduction to numpy - Mathematical Functions
+numpy provides lots of mathematical functions which are vectorized, just like the arithmetic operations, which means they operate elementwise. They return new arrays of the same size and shape with elements of the same type or another type if necessary.
 
-## 
+![image](https://github.com/user-attachments/assets/c358926a-358e-4a74-b165-22e17fc5f474)
 
-## 
+## 22 - Introduction to numpy - Aggregation
+numpy provides functions for aggregation. They take an array as an argument and return either another array or a scalar. We can also use their counterparts implemented as methods in the ndarray class.
 
-## 
+![image](https://github.com/user-attachments/assets/ec8d2ffc-5688-49b4-b1fb-6c22bab3e219)
 
-## 
+## 23 - Introduction to numpy - Comparing Arrays
+Given two numpy arrays, we can compare them elementwise. What we get is a new array with boolean values. We can use all the standard comparison operators like ==, !=, >, <, >=, <=. If the shapes of the arrays are different, all the broadcasting rules apply.
 
-## 
+![image](https://github.com/user-attachments/assets/493f1524-7cd0-415e-82c7-b19e2b06ebb1)
 
-## 
+## 24 - Introduction to numpy - Conditional Functions
+We can pick values from arrays based on a condition. To this end we can use the functions np.where, np.select and np.choose. Let's have a look at them now one by one.
 
-## 
+![image](https://github.com/user-attachments/assets/3eab78b7-5237-49cc-9b23-2afda07884fa)
 
-## 
+## 25 - Introduction to numpy - Logical Functions
+numpy offers us a couple of logical functions, in particular np.logical_and, np.logical_or, np.logical_xor and np.logical_not. Let's start with the last one. We use the np.logical_not function to elementwise invert an array. Zero is interpreted as False, any nonzero value as True.
 
-## 
+![image](https://github.com/user-attachments/assets/32ba826c-9fb4-4749-aad9-f09fc007e7ad)
+
+## 26 - Introduction to numpy - Random Numbers
+numpy provides a vast functionality for random numbers. The function we're going to need are in the np.random module. There are lots of them, let's just have a look at some.
+
+![image](https://github.com/user-attachments/assets/c4fbcce9-d01f-43d1-bbf7-81c9eb4429f2)
+
+## 27 - Introduction to numpy - Set Operations
+In Python if we need a collection where all elements are unique, we use sets. In numpy we can also make all the elements in an array unique and then we can work on it like on a set. In order to make an array unique, we use the np.unique function. It also sorts the array.
+
+![image](https://github.com/user-attachments/assets/37bac240-b2a2-4171-a198-2a8689d1e8f2)
+
+## 28 - Introduction to numpy - Non-Elementwise Operations on Arrays
+Most of the functions we have been talking about up to now work on an element by element basis. Some, like the aggregation functions, either reduce arrays to scalars or flatten them to arrays of fewer dimensions. But there are also functions in numpy that operate on arrays as a whole rather than elementwise and return transformed arrays of the same size, although not necessarily of the same shape.
+
+![image](https://github.com/user-attachments/assets/d2497e3e-663e-438f-bdd9-0254d62fe22f)
+
+## 29 - Introduction to numpy - The Dot Product
+If we multiply two matrix arrays, the multiplication is performed elementwise, which is not what real matrix multiplication is.
+
+![image](https://github.com/user-attachments/assets/58f5f847-ea88-4177-83c7-91e911a7aafc)
+
+## 30 - Introduction to numpy - Course Wrap-Up
 
